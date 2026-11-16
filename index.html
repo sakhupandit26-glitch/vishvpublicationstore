@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#F8FAFC" />
+  <meta name="theme-color" content="#F8FAFC" />
   <meta name="description" content="VISHV BOOK PUBLICATION 📚" />
   <title>VISHV BOOK PUBLICATION 📚</title>
+
   <link rel="icon" type="image/svg+xml" href="https://tracker.kirtnix.in/assets/branding/favicon.svg">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -32,8 +36,7 @@
     }
   </script>
 
-  
-    <!-- Meta Pixel Code (Software-Managed) -->
+  <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -43,19 +46,24 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
+
     fbq('init', '1155055693669828');
-    fbq('track', 'PageView', {}, {eventID: 'pv_BxLsv4KFML1b74bX_1794835679'});
+    fbq('track', 'PageView', {}, {
+      eventID: 'pv_8zy8pt8guP29KNGG_1794842920'
+    });
   </script>
+
   <noscript>
     <img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1155055693669828&ev=PageView&noscript=1" alt="" />
   </noscript>
   <!-- End Meta Pixel Code -->
-  
+
   <style>
     html {
       scroll-behavior: smooth;
     }
+
     body {
       font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
       line-height: 1.6;
@@ -64,471 +72,459 @@
       overflow-y: auto;
       min-height: 100vh;
     }
+
     .cta-btn-glow {
       box-shadow: 0 8px 24px rgba(37, 99, 235, 0.35);
       transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
     }
+
     .cta-btn-glow:hover {
       transform: translateY(-2px);
       filter: brightness(1.06);
       box-shadow: 0 12px 30px rgba(37, 99, 235, 0.45);
     }
+
     .cta-btn-glow:active {
       transform: translateY(0);
     }
   </style>
 
-  
   <style>
-  /* Public Landing Page Anti-Copy & Text Selection Deterrence */
-  body.kx-public-protected,
-  body.kx-public-protected *:not(input):not(textarea):not(select):not([contenteditable="true"]) {
-    -webkit-user-select: none !important;
-    -moz-user-select: none !important;
-    -ms-user-select: none !important;
-    user-select: none !important;
-    -webkit-touch-callout: none !important;
-  }
-  body.kx-public-protected input,
-  body.kx-public-protected textarea,
-  body.kx-public-protected select,
-  body.kx-public-protected [contenteditable="true"] {
-    -webkit-user-select: auto !important;
-    -moz-user-select: auto !important;
-    -ms-user-select: auto !important;
-    user-select: auto !important;
-  }
-</style>
-
-<script>
-(function() {
-  'use strict';
-
-  // 1. Add protection class to body
-  if (document.body) {
-    document.body.classList.add('kx-public-protected');
-  } else {
-    document.addEventListener('DOMContentLoaded', function() {
-      document.body.classList.add('kx-public-protected');
-    });
-  }
-
-  // Helper to determine if an event target is an interactive form element
-  function isFormInput(target) {
-    if (!target) return false;
-    var tag = (target.tagName || '').toUpperCase();
-    return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || target.isContentEditable;
-  }
-
-  // 2. Disable Context Menu (Right-Click) on Public Landing Page
-  document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-    return false;
-  }, { capture: true, passive: false });
-
-  // 3. Disable DevTools / View Source Keyboard Shortcuts
-  document.addEventListener('keydown', function(e) {
-    var isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
-    var ctrlOrCmd = isMac ? e.metaKey : e.ctrlKey;
-    var altOrOpt = e.altKey;
-    var shift = e.shiftKey;
-    var code = e.keyCode || e.which;
-    var key = (e.key || '').toUpperCase();
-
-    // Check for F12
-    if (code === 123 || key === 'F12') {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
+    /* Public Landing Page Text Selection Protection */
+    body.kx-public-protected,
+    body.kx-public-protected *:not(input):not(textarea):not(select):not([contenteditable="true"]) {
+      -webkit-user-select: none !important;
+      -moz-user-select: none !important;
+      -ms-user-select: none !important;
+      user-select: none !important;
+      -webkit-touch-callout: none !important;
     }
 
-    // Check for Ctrl+Shift+I / Cmd+Option+I (Inspect DevTools)
-    if ((ctrlOrCmd && shift && (code === 73 || key === 'I')) || (isMac && ctrlOrCmd && altOrOpt && (code === 73 || key === 'I'))) {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
+    body.kx-public-protected input,
+    body.kx-public-protected textarea,
+    body.kx-public-protected select,
+    body.kx-public-protected [contenteditable="true"] {
+      -webkit-user-select: auto !important;
+      -moz-user-select: auto !important;
+      -ms-user-select: auto !important;
+      user-select: auto !important;
     }
+  </style>
 
-    // Check for Ctrl+Shift+J / Cmd+Option+J (DevTools Console)
-    if ((ctrlOrCmd && shift && (code === 74 || key === 'J')) || (isMac && ctrlOrCmd && altOrOpt && (code === 74 || key === 'J'))) {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
-    }
+  <script>
+    (function() {
+      'use strict';
 
-    // Check for Ctrl+Shift+C / Cmd+Option+C (Inspect Element)
-    if ((ctrlOrCmd && shift && (code === 67 || key === 'C')) || (isMac && ctrlOrCmd && altOrOpt && (code === 67 || key === 'C'))) {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
-    }
+      if (document.body) {
+        document.body.classList.add('kx-public-protected');
+      } else {
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.classList.add('kx-public-protected');
+        });
+      }
 
-    // Check for Ctrl+U / Cmd+U (View Page Source)
-    if (ctrlOrCmd && (code === 85 || key === 'U')) {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
-    }
+      function isFormInput(target) {
+        if (!target) return false;
+        var tag = (target.tagName || '').toUpperCase();
+        return tag === 'INPUT' || tag === 'TEXTAREA' ||
+          tag === 'SELECT' || target.isContentEditable;
+      }
 
-    // Check for Ctrl+S / Cmd+S (Save Webpage)
-    if (ctrlOrCmd && (code === 83 || key === 'S')) {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
-    }
+      document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+        return false;
+      }, { capture: true, passive: false });
 
-    // Check for Ctrl+P / Cmd+P (Print Page)
-    if (ctrlOrCmd && (code === 80 || key === 'P')) {
-      e.preventDefault();
-      e.stopPropagation();
-      return false;
-    }
-  }, { capture: true, passive: false });
+      document.addEventListener('copy', function(e) {
+        if (!isFormInput(e.target)) {
+          e.preventDefault();
+          return false;
+        }
+      }, { capture: true, passive: false });
 
-  // 4. Disable Copy / Cut / Drag on Non-Input Elements
-  document.addEventListener('copy', function(e) {
-    if (!isFormInput(e.target)) {
-      e.preventDefault();
-      return false;
-    }
-  }, { capture: true, passive: false });
+      document.addEventListener('cut', function(e) {
+        if (!isFormInput(e.target)) {
+          e.preventDefault();
+          return false;
+        }
+      }, { capture: true, passive: false });
 
-  document.addEventListener('cut', function(e) {
-    if (!isFormInput(e.target)) {
-      e.preventDefault();
-      return false;
-    }
-  }, { capture: true, passive: false });
+      document.addEventListener('dragstart', function(e) {
+        var tag = (e.target && e.target.tagName)
+          ? e.target.tagName.toUpperCase() : '';
 
-  document.addEventListener('dragstart', function(e) {
-    var tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : '';
-    if (tag === 'IMG' || tag === 'A') {
-      e.preventDefault();
-      return false;
-    }
-  }, { capture: true, passive: false });
+        if (tag === 'IMG' || tag === 'A') {
+          e.preventDefault();
+          return false;
+        }
+      }, { capture: true, passive: false });
 
-})();
-</script>
+    })();
+  </script>
 </head>
+
 <body class="bg-[#F4F6F9] text-slate-900 min-h-screen flex flex-col justify-between">
 
-  
-  
-  <!-- Main Scrollable Content Wrapper (Natural Height) -->
   <main class="w-full max-w-[620px] mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-5 flex-1">
 
-          
-      
-              <section class="text-center space-y-3.5 pt-2 pb-1">
+    <!-- HERO SECTION -->
+    <section class="text-center space-y-3.5 pt-2 pb-1">
 
-          
-                      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 shadow-sm">
-              <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              <span>10,547 Traders Online Now</span>
-            </div>
-          
-          
-                      <div class="flex justify-center my-2">
-              <img 
-                src="https://cdn5.telesco.pe/file/kESoyXBPDEx6yX__sw-xXCumzyAUwgQ6k7G-vgV2o2u5lEYRLSs-SyAvMiUJUpjjdWiw6cJ2Y5JGTJwwpvJnoos5wYdz_9qwG8BajKPZWkb_CY_BYwih3juaejLVc1OkNkA34EBl5_oaY8c56f3uAhbAA4yjaEfg6GnTKmmGSJxDDjCDTEwXQS2SOVi8fcEpuZsBo-iGjP2nLkaiRx27Dke9l9u3bNggnbuIr-z2JWvcBMDTGDqG_RhKuDRX2k3N54t79vm-Xg57p6x4kCWDlAiKtE7f2gZ7RlApOxuBbJOGQbLR5fQLnZ3a_iHXCnFsTLT4OPE48SZZkehPPqhonQ.jpg" 
-                alt="VISHV BOOK PUBLICATION 📚📦" 
-                class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-4 border-white shadow-lg bg-white ring-1 ring-slate-200"
-              >
-            </div>
-          
-          
-          <div class="space-y-0.5">
-            <h2 class="text-lg sm:text-xl font-black tracking-tight text-slate-900">
-              VISHV BOOK PUBLICATION 📚📦
-            </h2>
-                          <p class="text-xs font-semibold text-blue-600">
-                100% Free Access. No Experience Required
-              </p>
-                      </div>
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 shadow-sm">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span>10,547 Traders Online Now</span>
+      </div>
 
-          
-                      <div class="flex items-center justify-center gap-1.5 text-xs font-bold text-amber-500">
-              <span>⭐⭐⭐⭐⭐</span>
-              <span class="text-slate-600 font-semibold text-[11px]">
-                4.9/5 (2,340 Reviews)
-              </span>
-            </div>
-          
-          
-                      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-xl text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200/80">
-              <span>⚡</span>
-              <span>Start Working From Home Today</span>
-            </div>
-          
-          
-                      <h1 class="text-xl sm:text-3xl font-extrabold tracking-tight leading-snug text-slate-900">
-              Work From Home Opportunities
-            </h1>
-          
-          
-                      <p class="text-xs sm:text-sm text-slate-600 max-w-md mx-auto leading-relaxed">
-              Discover genuine work-from-home opportunities, flexible earning options, and practical guidance to help you build a reliable remote career.
+      <div class="flex justify-center my-2">
+        <img
+          src="https://cdn5.telesco.pe/file/kESoyXBPDEx6yX__sw-xXCumzyAUwgQ6k7G-vgV2o2u5lEYRLSs-SyAvMiUJUpjjdWiw6cJ2Y5JGTJwwpvJnoos5wYdz_9qwG8BajKPZWkb_CY_BYwih3juaejLVc1OkNkA34EBl5_oaY8c56f3uAhbAA4yjaEfg6GnTKmmGSJxDDjCDTEwXQS2SOVi8fcEpuZsBo-iGjP2nLkaiRx27Dke9l9u3bNggnbuIr-z2JWvcBMDTGDqG_RhKuDRX2k3N54t79vm-Xg57p6x4kCWDlAiKtE7f2gZ7RlApOxuBbJOGQbLR5fQLnZ3a_iHXCnFsTLT4OPE48SZZkehPPqhonQ.jpg"
+          alt="VISHV BOOK PUBLICATION 📚📦"
+          class="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-4 border-white shadow-lg bg-white ring-1 ring-slate-200"
+        >
+      </div>
+
+      <div class="space-y-0.5">
+        <h2 class="text-lg sm:text-xl font-black tracking-tight text-slate-900">
+          VISHV BOOK PUBLICATION 📚📦
+        </h2>
+        <p class="text-xs font-semibold text-blue-600">
+          100% Free Access. No Experience Required
+        </p>
+      </div>
+
+      <div class="flex items-center justify-center gap-1.5 text-xs font-bold text-amber-500">
+        <span>⭐⭐⭐⭐⭐</span>
+        <span class="text-slate-600 font-semibold text-[11px]">
+          4.9/5 (2,340 Reviews)
+        </span>
+      </div>
+
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-xl text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200/80">
+        <span>⚡</span>
+        <span>Start Working From Home Today</span>
+      </div>
+
+      <h1 class="text-xl sm:text-3xl font-extrabold tracking-tight leading-snug text-slate-900">
+        Work From Home Opportunities
+      </h1>
+
+      <p class="text-xs sm:text-sm text-slate-600 max-w-md mx-auto leading-relaxed">
+        Discover genuine work-from-home opportunities, flexible earning options, and practical guidance to help you build a reliable remote career.
+      </p>
+
+      <!-- FIRST TELEGRAM BUTTON -->
+      <div class="pt-2">
+        <a
+          id="btn-join-telegram-hero"
+          href="https://t.me/+2qfa8IbNO5RmMmM1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cta-btn-glow w-full flex items-center justify-center gap-2.5 px-6 py-3.5 sm:py-4 rounded-xl font-extrabold text-sm sm:text-base text-white bg-blue-600 hover:bg-blue-700 transition"
+        >
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.19.12z"/>
+          </svg>
+          <span>Join Free Telegram Channel →</span>
+        </a>
+
+        <p class="text-[11px] text-slate-500 mt-1.5 font-medium">
+          Free instant access • No payment required
+        </p>
+      </div>
+
+    </section>
+
+    <!-- STATISTICS -->
+    <section class="grid grid-cols-3 gap-2 sm:gap-3">
+
+      <div class="text-center p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm">
+        <div class="text-sm sm:text-base font-black text-blue-600">10K+</div>
+        <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-0.5">Members</div>
+      </div>
+
+      <div class="text-center p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm">
+        <div class="text-sm sm:text-base font-black text-blue-600">5+ Years</div>
+        <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-0.5">Experience</div>
+      </div>
+
+      <div class="text-center p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm">
+        <div class="text-sm sm:text-base font-black text-blue-600">95%</div>
+        <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-0.5">Accuracy</div>
+      </div>
+
+    </section>
+
+    <!-- WHY JOIN -->
+    <section class="space-y-2.5 pt-1">
+
+      <h2 class="text-xs font-extrabold uppercase tracking-wider text-center text-slate-700">
+        Why Join Our Community?
+      </h2>
+
+      <p class="text-[11px] text-center text-slate-500 -mt-1 mb-2">
+        Everything you need to trade smarter with professional guidance.
+      </p>
+
+      <div class="space-y-2">
+
+        <div class="flex items-center gap-3.5 p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm hover:border-blue-300 transition">
+          <div class="text-xl p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0 flex items-center justify-center">📊</div>
+          <div class="space-y-0.5 min-w-0 flex-1">
+            <h3 class="text-xs sm:text-sm font-bold text-slate-900 truncate">
+              Genuine Work Opportunities
+            </h3>
+            <p class="text-[11px] text-slate-500 leading-relaxed">
+              Discover carefully explained remote work opportunities and flexible earning options you can explore from home
             </p>
-          
-          
-          <div class="pt-2">
-            <a
-              id="btn-join-telegram-hero"
-              href=""
-              data-kx-cta="1"
-              data-kx-token="kx_vU9rTTNt"
-              data-kx-fallback="https://t.me/+2qfa8IbNO5RmMmM1"
-              class="cta-btn-glow w-full flex items-center justify-center gap-2.5 px-6 py-3.5 sm:py-4 rounded-xl font-extrabold text-sm sm:text-base text-white bg-blue-600 hover:bg-blue-700 transition"
-            >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
-              <span>Join Free Telegram Channel →</span>
-            </a>
-                          <p class="text-[11px] text-slate-500 mt-1.5 font-medium">
-                Free instant access • No payment required
-              </p>
-                      </div>
-        </section>
-
-      
-      
-          
-      
-              <section class="grid grid-cols-3 gap-2 sm:gap-3">
-                      <div class="text-center p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm">
-              <div class="text-sm sm:text-base font-black text-blue-600">
-                10K+
-              </div>
-              <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-0.5">
-                Members
-              </div>
-            </div>
-                      <div class="text-center p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm">
-              <div class="text-sm sm:text-base font-black text-blue-600">
-                5+ Years
-              </div>
-              <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-0.5">
-                Experience
-              </div>
-            </div>
-                      <div class="text-center p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm">
-              <div class="text-sm sm:text-base font-black text-blue-600">
-                95%
-              </div>
-              <div class="text-[10px] sm:text-xs font-semibold text-slate-600 mt-0.5">
-                Accuracy
-              </div>
-            </div>
-                  </section>
-
-      
-      
-          
-      
-              <section class="space-y-2.5 pt-1">
-                      <h2 class="text-xs font-extrabold uppercase tracking-wider text-center text-slate-700">
-              Why Join Our Community?
-            </h2>
-                                <p class="text-[11px] text-center text-slate-500 -mt-1 mb-2">
-              Everything you need to trade smarter with professional guidance.
-            </p>
-          
-          <div class="space-y-2">
-                          <div class="flex items-center gap-3.5 p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm hover:border-blue-300 transition">
-                <div class="text-xl p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0 flex items-center justify-center">
-                  📊
-                </div>
-                <div class="space-y-0.5 min-w-0 flex-1">
-                  <h3 class="text-xs sm:text-sm font-bold text-slate-900 truncate">
-                    Genuine Work Opportunities
-                  </h3>
-                                      <p class="text-[11px] text-slate-500 leading-relaxed">
-                      Discover carefully explained remote work opportunities and flexible earning options you can explore from home
-                    </p>
-                                  </div>
-              </div>
-                          <div class="flex items-center gap-3.5 p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm hover:border-blue-300 transition">
-                <div class="text-xl p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0 flex items-center justify-center">
-                  🎯
-                </div>
-                <div class="space-y-0.5 min-w-0 flex-1">
-                  <h3 class="text-xs sm:text-sm font-bold text-slate-900 truncate">
-                    Step-by-Step Guidance
-                  </h3>
-                                      <p class="text-[11px] text-slate-500 leading-relaxed">
-                      Get simple practical guidance that helps you understand each opportunity and how to get started
-                    </p>
-                                  </div>
-              </div>
-                          <div class="flex items-center gap-3.5 p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm hover:border-blue-300 transition">
-                <div class="text-xl p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0 flex items-center justify-center">
-                  ⚡
-                </div>
-                <div class="space-y-0.5 min-w-0 flex-1">
-                  <h3 class="text-xs sm:text-sm font-bold text-slate-900 truncate">
-                    Instant Updates
-                  </h3>
-                                      <p class="text-[11px] text-slate-500 leading-relaxed">
-                      Receive regular updates about new opportunities, useful resources and work-from-home
-                    </p>
-                                  </div>
-              </div>
-                      </div>
-        </section>
-
-      
-      
-          
-      
-              <section class="text-center p-4 sm:p-5 rounded-xl bg-white border border-slate-200/80 shadow-sm space-y-2.5">
-                      <h2 class="text-sm sm:text-base font-extrabold text-slate-900">
-              Ready to Start Working From Home?
-            </h2>
-                                <p class="text-xs text-slate-600 max-w-md mx-auto">
-              Take the first step toward a more flexible work life. Join our community and explore opportunities you can work on from anywhere.
-            </p>
-                    <div class="pt-1">
-            <a
-              href=""
-              data-kx-cta="1"
-              data-kx-token="kx_vU9rTTNt"
-              data-kx-fallback="https://t.me/+2qfa8IbNO5RmMmM1"
-              class="cta-btn-glow w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-extrabold text-sm text-white bg-blue-600 hover:bg-blue-700 transition"
-            >
-              <span>Join Free Telegram Channel →</span>
-            </a>
-                          <p class="text-[11px] text-slate-500 mt-1.5">
-                Available on Telegram App &amp;amp; Web
-              </p>
-                      </div>
-        </section>
-
-      
-      
-          
-      
-              <section class="space-y-2 pt-1">
-                      <h2 class="text-xs font-extrabold uppercase tracking-wider text-center text-slate-700">
-              Frequently Asked Questions
-            </h2>
-                    <div class="space-y-2">
-                          <details class="group p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm open:border-blue-300 text-xs transition">
-                <summary class="font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between">
-                  <span>Is this really free?</span>
-                  <span class="text-slate-400 group-open:rotate-180 transition-transform">▼</span>
-                </summary>
-                <div class="mt-2 pt-2 border-t border-slate-100 text-slate-600 leading-relaxed">
-                  Yes! The main educational setups and community discussions are completely free to join.
-                </div>
-              </details>
-                          <details class="group p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm open:border-blue-300 text-xs transition">
-                <summary class="font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between">
-                  <span>Do I need previous experience?</span>
-                  <span class="text-slate-400 group-open:rotate-180 transition-transform">▼</span>
-                </summary>
-                <div class="mt-2 pt-2 border-t border-slate-100 text-slate-600 leading-relaxed">
-                  Clicking the button will open the Telegram app directly to our official channel where you tap &amp;quot;Join&amp;quot;.
-                </div>
-              </details>
-                          <details class="group p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm open:border-blue-300 text-xs transition">
-                <summary class="font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between">
-                  <span>Can I work from home using my phone?</span>
-                  <span class="text-slate-400 group-open:rotate-180 transition-transform">▼</span>
-                </summary>
-                <div class="mt-2 pt-2 border-t border-slate-100 text-slate-600 leading-relaxed">
-                  Not at all. We provide comprehensive breakdowns suitable for both beginners and experienced traders.
-                </div>
-              </details>
-                      </div>
-        </section>
-
-      
-      
-          
-      
-              <section class="p-3.5 rounded-xl bg-slate-100/80 border border-slate-200 text-slate-500 text-[10px] space-y-1">
-          <strong class="text-slate-700 uppercase tracking-wider block font-bold text-[9.5px]">
-            Important Risk Disclaimer
-          </strong>
-          <p class="leading-relaxed">
-            Trading financial markets involves substantial risk of loss and is not suitable for all investors. All setups, analysis, and information shared are for educational purposes only and do not constitute financial advice.
-          </p>
-        </section>
-
-      
-      
-          
-      
-              <footer class="pt-4 pb-2 text-center text-xs text-slate-500 border-t border-slate-200 space-y-1.5">
-          <p>© 2026 globalp. All rights reserved.</p>
-                      <div class="text-[11px] font-medium text-slate-400">
-                              <a href="https://t.me/+NClEt-SWyDMyZDJl" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-blue-400 transition inline-flex items-center gap-1">
-                  ⚡ Ads Managed by AK GrowthX Media
-                </a>
-                          </div>
-                    <div class="flex justify-center flex-wrap gap-2.5 text-[11px] font-medium text-slate-500 pt-1">
-            <a href="" class="hover:text-blue-600 transition" data-kx-cta="1">Telegram</a>
-            <span>•</span>
-            <a href="#privacy" class="hover:underline transition" onclick="openPolicyModal('privacy'); return false;">Privacy Policy</a>
-            <span>•</span>
-            <a href="#terms" class="hover:underline transition" onclick="openPolicyModal('terms'); return false;">Terms & Conditions</a>
-            <span>•</span>
-            <a href="#disclaimer" class="hover:underline transition" onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'}); return false;">Risk Disclaimer</a>
           </div>
-          <p class="text-[9.5px] opacity-70 max-w-sm mx-auto pt-2 leading-relaxed">
-            Meta Notice: This site is independent and not affiliated with Facebook, Instagram, or Meta Platforms, Inc.
-          </p>
-        </footer>
-      
-    
+        </div>
+
+        <div class="flex items-center gap-3.5 p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm hover:border-blue-300 transition">
+          <div class="text-xl p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0 flex items-center justify-center">🎯</div>
+          <div class="space-y-0.5 min-w-0 flex-1">
+            <h3 class="text-xs sm:text-sm font-bold text-slate-900 truncate">
+              Step-by-Step Guidance
+            </h3>
+            <p class="text-[11px] text-slate-500 leading-relaxed">
+              Get simple practical guidance that helps you understand each opportunity and how to get started
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3.5 p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm hover:border-blue-300 transition">
+          <div class="text-xl p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0 flex items-center justify-center">⚡</div>
+          <div class="space-y-0.5 min-w-0 flex-1">
+            <h3 class="text-xs sm:text-sm font-bold text-slate-900 truncate">
+              Instant Updates
+            </h3>
+            <p class="text-[11px] text-slate-500 leading-relaxed">
+              Receive regular updates about new opportunities, useful resources and work-from-home
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECOND CTA -->
+    <section class="text-center p-4 sm:p-5 rounded-xl bg-white border border-slate-200/80 shadow-sm space-y-2.5">
+
+      <h2 class="text-sm sm:text-base font-extrabold text-slate-900">
+        Ready to Start Working From Home?
+      </h2>
+
+      <p class="text-xs text-slate-600 max-w-md mx-auto">
+        Take the first step toward a more flexible work life. Join our community and explore opportunities you can work on from anywhere.
+      </p>
+
+      <div class="pt-1">
+        <a
+          href="https://t.me/+2qfa8IbNO5RmMmM1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cta-btn-glow w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-extrabold text-sm text-white bg-blue-600 hover:bg-blue-700 transition"
+        >
+          <span>Join Free Telegram Channel →</span>
+        </a>
+
+        <p class="text-[11px] text-slate-500 mt-1.5">
+          Available on Telegram App &amp; Web
+        </p>
+      </div>
+
+    </section>
+
+    <!-- FAQ -->
+    <section class="space-y-2 pt-1">
+
+      <h2 class="text-xs font-extrabold uppercase tracking-wider text-center text-slate-700">
+        Frequently Asked Questions
+      </h2>
+
+      <div class="space-y-2">
+
+        <details class="group p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm open:border-blue-300 text-xs transition">
+          <summary class="font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between">
+            <span>Is this really free?</span>
+            <span class="text-slate-400 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div class="mt-2 pt-2 border-t border-slate-100 text-slate-600 leading-relaxed">
+            Yes! The main educational setups and community discussions are completely free to join.
+          </div>
+        </details>
+
+        <details class="group p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm open:border-blue-300 text-xs transition">
+          <summary class="font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between">
+            <span>Do I need previous experience?</span>
+            <span class="text-slate-400 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div class="mt-2 pt-2 border-t border-slate-100 text-slate-600 leading-relaxed">
+            Clicking the button will open the Telegram app directly to our official channel where you tap &quot;Join&quot;.
+          </div>
+        </details>
+
+        <details class="group p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-sm open:border-blue-300 text-xs transition">
+          <summary class="font-bold text-slate-800 cursor-pointer list-none flex items-center justify-between">
+            <span>Can I work from home using my phone?</span>
+            <span class="text-slate-400 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div class="mt-2 pt-2 border-t border-slate-100 text-slate-600 leading-relaxed">
+            Not at all. We provide comprehensive breakdowns suitable for both beginners and experienced traders.
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- RISK DISCLAIMER -->
+    <section class="p-3.5 rounded-xl bg-slate-100/80 border border-slate-200 text-slate-500 text-[10px] space-y-1">
+
+      <strong class="text-slate-700 uppercase tracking-wider block font-bold text-[9.5px]">
+        Important Risk Disclaimer
+      </strong>
+
+      <p class="leading-relaxed">
+        Trading financial markets involves substantial risk of loss and is not suitable for all investors. All setups, analysis, and information shared are for educational purposes only and do not constitute financial advice.
+      </p>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="pt-4 pb-2 text-center text-xs text-slate-500 border-t border-slate-200 space-y-1.5">
+
+      <p>© 2026 globalp. All rights reserved.</p>
+
+      <div class="text-[11px] font-medium text-slate-400">
+        <a href="https://t.me/+-GEJZUCQOShiYTRl"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="hover:underline hover:text-blue-400 transition inline-flex items-center gap-1">
+          ⚡ Ads Managed by akadsboss
+        </a>
+      </div>
+
+      <div class="flex justify-center flex-wrap gap-2.5 text-[11px] font-medium text-slate-500 pt-1">
+
+        <a
+          href="https://t.me/+2qfa8IbNO5RmMmM1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-blue-600 transition">
+          Telegram
+        </a>
+
+        <span>•</span>
+
+        <a href="#privacy"
+           class="hover:underline transition"
+           onclick="openPolicyModal('privacy'); return false;">
+          Privacy Policy
+        </a>
+
+        <span>•</span>
+
+        <a href="#terms"
+           class="hover:underline transition"
+           onclick="openPolicyModal('terms'); return false;">
+          Terms & Conditions
+        </a>
+
+        <span>•</span>
+
+        <a href="#disclaimer"
+           class="hover:underline transition"
+           onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'}); return false;">
+          Risk Disclaimer
+        </a>
+
+      </div>
+
+      <p class="text-[9.5px] opacity-70 max-w-sm mx-auto pt-2 leading-relaxed">
+        Meta Notice: This site is independent and not affiliated with Facebook, Instagram, or Meta Platforms, Inc.
+      </p>
+
+    </footer>
+
   </main>
 
-  <!-- Compliance Policy Modal (Passes Meta Destination Policy Crawler) -->
-  <div id="policyModal" style="display: none; position: fixed; inset: 0; z-index: 99999; background: rgba(0,0,0,0.85); backdrop-filter: blur(6px); align-items: center; justify-content: center; padding: 16px;">
+  <!-- POLICY MODAL -->
+  <div id="policyModal"
+       style="display: none; position: fixed; inset: 0; z-index: 99999; background: rgba(0,0,0,0.85); backdrop-filter: blur(6px); align-items: center; justify-content: center; padding: 16px;">
+
     <div style="background: #12141a; border: 1px solid #2a2e3a; border-radius: 16px; max-width: 600px; width: 100%; max-height: 80vh; overflow-y: auto; padding: 24px; color: #e2e8f0; font-size: 13px; line-height: 1.6; position: relative; box-shadow: 0 20px 50px rgba(0,0,0,0.5); text-align: left;">
+
       <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #2a2e3a; padding-bottom: 12px; margin-bottom: 16px;">
-        <h3 id="policyModalTitle" style="font-size: 18px; font-weight: 700; color: #f0c14b;">Policy</h3>
-        <button type="button" onclick="closePolicyModal()" style="background: none; border: none; color: #8b90a0; font-size: 24px; cursor: pointer; line-height: 1;">&times;</button>
+
+        <h3 id="policyModalTitle"
+            style="font-size: 18px; font-weight: 700; color: #f0c14b;">
+          Policy
+        </h3>
+
+        <button type="button"
+                onclick="closePolicyModal()"
+                style="background: none; border: none; color: #8b90a0; font-size: 24px; cursor: pointer; line-height: 1;">
+          &times;
+        </button>
+
       </div>
-      <div id="policyModalContent">
-        <!-- Injected via JavaScript -->
-      </div>
+
+      <div id="policyModalContent"></div>
+
       <div style="margin-top: 20px; text-align: right; border-top: 1px solid #2a2e3a; padding-top: 14px;">
-        <button type="button" onclick="closePolicyModal()" style="background: #2a2e3a; color: #fff; border: none; padding: 8px 20px; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 600;">Close</button>
+
+        <button type="button"
+                onclick="closePolicyModal()"
+                style="background: #2a2e3a; color: #fff; border: none; padding: 8px 20px; border-radius: 8px; font-size: 13px; cursor: pointer; font-weight: 600;">
+          Close
+        </button>
+
       </div>
+
     </div>
   </div>
 
+  <!-- POLICY JAVASCRIPT -->
   <script>
     function openPolicyModal(type) {
+
       var modal = document.getElementById('policyModal');
       var title = document.getElementById('policyModalTitle');
       var content = document.getElementById('policyModalContent');
+
       if (type === 'privacy') {
+
         title.innerText = 'Privacy Policy';
-        content.innerHTML = '<p><strong>Last Updated: January 2026</strong></p>' +
+
+        content.innerHTML =
+          '<p><strong>Last Updated: January 2026</strong></p>' +
           '<p style="margin-top:8px;">We value your privacy. We collect basic technical session details (such as anonymized browser type, country, and device) to measure campaign reach and ensure seamless redirection to our community.</p>' +
           '<p style="margin-top:8px;"><strong>Use of Data:</strong> Information gathered is never sold or rented to third-party brokers. Data is processed solely for community onboarding, customer support, and security compliance.</p>' +
           '<p style="margin-top:8px;"><strong>Cookies & Advertising:</strong> We may utilize first-party tracking identifiers to evaluate landing page performance and attribution with advertising platforms including Meta (Facebook/Instagram).</p>' +
           '<p style="margin-top:8px;">For privacy inquiries or data removal, please contact the community administrators via Telegram.</p>';
+
       } else {
+
         title.innerText = 'Terms & Conditions';
-        content.innerHTML = '<p><strong>Community Guidelines & Terms of Access</strong></p>' +
+
+        content.innerHTML =
+          '<p><strong>Community Guidelines & Terms of Access</strong></p>' +
           '<p style="margin-top:8px;">1. <strong>Educational Nature:</strong> All discussions, technical patterns, and publications shared across this website and associated Telegram channels are solely for educational purposes.</p>' +
           '<p style="margin-top:8px;">2. <strong>No Financial Advice:</strong> We are not registered financial advisers. We do not provide tips, trade execution calls, or investment management services. Trading in financial markets carries substantial capital risk.</p>' +
           '<p style="margin-top:8px;">3. <strong>Acceptance:</strong> By clicking to enter the channel, you affirm that you understand market risks and will exercise personal discretion before executing any trades.</p>';
+
       }
+
       modal.style.display = 'flex';
     }
+
     function closePolicyModal() {
       document.getElementById('policyModal').style.display = 'none';
     }
+
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') closePolicyModal();
     });
   </script>
 
-  <!-- Software-Managed Kirtnix Tracker Client Script -->
-  <script src="/api/public/kx.js?lp=171f31bf-6a74-4f80-b23f-dffbbaa68927" data-kx-lp="171f31bf-6a74-4f80-b23f-dffbbaa68927"></script>
 </body>
 </html>
